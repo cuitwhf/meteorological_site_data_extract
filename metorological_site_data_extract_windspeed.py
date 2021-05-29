@@ -80,7 +80,7 @@ if __name__ == '__main__':
                         temp_time = pd.to_datetime(date_time[i])
                         temp_time = temp_time
                         # temp_time = temp_time - datetime.timedelta(hours=8)
-                        date.append(temp_time.strftime('%Y-%m-%dT%H:%M:%SZ'))
+                        date.append(temp_time.strftime('%Y-%m-%d %H:%M:%S'))
                         wd_data.append(wd[i])
                         ws_data.append(ws[i])
         # 到此处一个站点的循环结束.获取到date和data两个列表
